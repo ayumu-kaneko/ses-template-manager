@@ -1,6 +1,6 @@
 # ses-template-manager
 ## 概要
-Amazon SES(https://aws.amazon.com/jp/ses/)にはテンプレートを使用したメール送信の機能がある(https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-personalized-email-api.html)が、その管理はCLIにしか対応していなく、使っていて正直しんどかったのでツール化してみた。
+Amazon SES( https://aws.amazon.com/jp/ses/ )にはテンプレートを使用したメール送信の機能がある( https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-personalized-email-api.html )が、その管理はCLIにしか対応していなく、使っていて正直しんどかったのでツール化してみた。
 ## 前提
 AWS SDKが使用できる状態であること(下記は例)。
 - `aws configure`によりAWS Access Keyを登録してある
