@@ -1,0 +1,24 @@
+{
+  "name": "ses-template-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "register-templates.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:ayumu-kaneko/ses-template-manager.git"
+  },
+  "scripts": {
+    "help": "node register-templates.js --help",
+    "start": "node register-templates.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dump": "node dump-ses-templates.js -d dump"
+  },
+  "author": "Ayumu Kaneko <kaneko@opst.co.jp>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.183.0",
+    "co": "^4.6.0",
+    "commander": "^2.13.0",
+    "thunkify": "^2.1.2"
+  }
+}
